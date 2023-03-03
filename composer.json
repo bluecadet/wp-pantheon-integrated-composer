@@ -14,7 +14,14 @@
     }
   ],
   "require": {
-    "pantheon-upstreams/upstream-config": "*"
+    "bluecadet/timber-fractal-paths": "^2.0",
+    "pantheon-upstreams/upstream-config": "*",
+    "wpackagist-plugin/classic-editor": "^1.6",
+    "wpackagist-plugin/disable-comments": "^2.4",
+    "wpackagist-plugin/duplicate-post": "^4.5",
+    "wpackagist-plugin/redirection": "^5.3",
+    "wpackagist-plugin/simple-page-ordering": "^2.4",
+    "wpackagist-plugin/timber-library": "^1.22"
   },
   "config": {
     "vendor-dir": "vendor",
@@ -23,6 +30,10 @@
     "sort-packages": true,
     "platform": {
       "php": "7.2"
+    },
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true,
+      "composer/installers": true
     }
   },
   "extra": {

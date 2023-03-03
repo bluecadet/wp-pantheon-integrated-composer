@@ -1,0 +1,13 @@
+{
+    "name": "bluecadet/bluecadet-wp-utils",
+    "description": "Bluecadet utilities for WordPress. Timber Helpers, CPT and CT registration, and more.",
+    "version": "1.0.0",
+    "type": "wordpress-plugin",
+    "authors": [{
+        "name": "Shaun M Baer",
+        "email": "shaun@bluecadet.com"
+    }],
+    "require": {
+        "composer/installers": "^1.0"
+    }
+}
